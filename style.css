@@ -175,10 +175,13 @@ li a:hover {
 input.search-field {
   background: #f2f2f2;
   border-radius: 4px 4px 0 0;
-  border: 1px solid transparent;
   width: 256px;
   height: 56px;
   padding: 16px;
+  border-bottom: 1px solid #dedede;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 ::placeholder {
@@ -327,7 +330,7 @@ a.slide-arrow-right:active {
   background-color: var(--color-text-light);
   width: 200px;
   padding: 16px 16px 10px;
-  border: 1px solid transparent;
+  border-bottom: 1px solid #dedede;
   border-radius: 4px 4px 0 0;
   margin: 25px 0;
 }
