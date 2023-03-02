@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Enigmatry Task</title>
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container flex">
+        <div class="mobile-menu-icon"><i class="fa-regular fa-bars"></i></div>
+        <a href="#" class="logo"><img src="assets/images/LOGO.png" alt="" /></a>
+        <nav class="navigation">
+          <ul role="list" class="nav-list flex">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="search-holder">
+          <input class="search-field" value="" placeholder="Search..." />
+          <a href="#" class="submit-button"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+        <div class="icon-holder">
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-cart-shopping"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="breadcrumbs-section">
+        <ol role="list" class="breadcumbs container flex">
+          <li><a href="#">Home</a><i class="fa-solid fa-chevron-right"></i></li>
+          <li>
+            <a href="#">Products</a><i class="fa-solid fa-chevron-right"></i>
+          </li>
+          <li>
+            <a href="#">Bikes</a><i class="fa-solid fa-chevron-right"></i>
+          </li>
+        </ol>
+      </section>
+      <section class="product-info-slider">
+        <div class="title-nav container flex">
+          <div class="column-standard">
+            <h1>Product name lorem ipsum</h1>
+          </div>
+          <div class="column-standard nav-social">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+        <div class="product-slider container flex">
+          <div class="column-large">
+            <div class="image-slider">
+              <img src="assets/images/image-1.jpg" alt="Bicycle" />
+              <div class="slider-navigation">
+                <a href="#" class="slide-arrow-left"
+                  ><i class="fa-solid fa-chevron-left"></i
+                ></a>
+                <a href="#" class="slide-arrow-right"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="column-small">
+            <div class="product-info">
+              <div class="stock">
+                <p>In stock <span>- only 2 left</span></p>
+              </div>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+              <div class="dd-section-holder flex">
+                <div class="dropdown left">
+                  <span>Gents - Medium</span
+                  ><i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="dropdown right">
+                  <span>Black</span><i class="fa-solid fa-chevron-down"></i>
+                </div>
+              </div>
+              <div class="checkbox-holder">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="checkbox-1" />
+                  <label for="checkbox-1">Add option lorem ipsum</label>
+                </div>
+
+                <div class="checkbox-container">
+                  <input type="checkbox" id="checkbox-2" />
+                  <label for="checkbox-2"
+                    >Add option autpat velit cano totam rem aperiam</label
+                  >
+                </div>
+              </div>
+              <div class="button-holder">
+                <button class="button-solid">Add to cart</button>
+                <button class="button-light">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tabs-section">
+        <div class="tabs">
+          <ul role="list" class="container flex">
+            <li>Description</li>
+            <li>Specification</li>
+            <li>Reviews (7)</li>
+          </ul>
+        </div>
+        <div class="tab-content container flex">
+          <div class="tab-text column-regular">
+            <h2 class="tab-content-title">Product description</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+            <br />
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum. Sed ut perspiciatis
+              unde omnis iste natus error sit voluptatem accusantium doloremque
+              laudantium.
+            </p>
+            <button class="tab-button">More info</button>
+          </div>
+          <div class="tab-image column-regular">
+            <img
+              src="assets/images/bikers.jpg"
+              alt="Two women riding bike on the street"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="table-section">
+        <div class="tech-spec-holder container">
+          <h2>Technical specifications</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>Model</td>
+                <td>Frame size</td>
+                <td>Weight</td>
+                <td>Max speed</td>
+                <td>Battery</td>
+                <td>Engine</td>
+              </tr>
+              <tr>
+                <td>Ladies - Small</td>
+                <td>50 cm</td>
+                <td>24 kg</td>
+                <td>45 km/h</td>
+                <td>625 Wh</td>
+                <td>Bosch Performance Line Speed</td>
+              </tr>
+              <tr>
+                <td>Ladies - Medium</td>
+                <td>55 cm</td>
+                <td>25 kg</td>
+                <td>45 km/h</td>
+                <td>625 Wh</td>
+                <td>Bosch Performance Line Speed</td>
+              </tr>
+              <tr>
+                <td>Ladies - Large</td>
+                <td>60 cm</td>
+                <td>26 kg</td>
+                <td>45 km/h</td>
+                <td>625 Wh</td>
+                <td>Bosch Performance Line Speed</td>
+              </tr>
+              <tr>
+                <td>Ladies - Small</td>
+                <td>50 cm</td>
+                <td>24 kg</td>
+                <td>45 km/h</td>
+                <td>625 Wh</td>
+                <td>Bosch Performance Line Speed</td>
+              </tr>
+              <tr>
+                <td>Ladies -Medium</td>
+                <td>
+                  <p>55 cm</p>
+                </td>
+                <td>25 kg</td>
+                <td>45 km/h</td>
+                <td>625 Wh</td>
+                <td>Bosch Performance Line Speed</td>
+              </tr>
+              <tr>
+                <td>Ladies - Large</td>
+                <td>60 cm</td>
+                <td>26 kg</td>
+                <td>45 km/h</td>
+                <td>625 Wh</td>
+                <td>Bosch Performance Line Speed</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- lightbox added here-->
+      <div id="lightbox">
+        <div id="form-container">
+          <button id="close-btn"><i class="fas fa-times"></i></button>
+          <h3>Contact Us</h3>
+          <p>We’ll get back to you as soon as possible.</p>
+          <form action="#" method="post">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your e-mail"
+            />
+            <textarea id="message" name="message" placeholder="Your"></textarea>
+            <div class="flex buttons">
+              <p>Cancel</p>
+              <input type="submit" value="Send message" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script>
+      const lightbox = document.getElementById("lightbox");
+      const closeBtn = document.getElementById("close-btn");
+
+      closeBtn.addEventListener("click", function () {
+        lightbox.style.display = "none";
+      });
+
+      window.addEventListener("click", function (event) {
+        if (event.target == lightbox) {
+          lightbox.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>
